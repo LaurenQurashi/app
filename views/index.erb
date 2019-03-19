@@ -1,5 +1,9 @@
+  <% if @name %>
   <h1>My name is <%= @name %> and I'm a sassy cat</h1>
-  <div style='border: 3px dashed red'>
+  <% else %>
+  <h1> Name me pls!</h1>
+  <% end %>
+  <div style='border: 3px dashed green;color:purple;margin-left:30px;''>
   <img src = 'http://bit.ly/1eze8aE'
   </div>
 
